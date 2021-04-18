@@ -1,14 +1,15 @@
 import './App.css';
+import createRoutes from './routes';
+import Links from './links';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        
-      </header> */}
+      <>
+    main page
+<createRoutes/>
+    <Links/>
 
-      countdown component
-    </div>
+</>
   );
 }
 
